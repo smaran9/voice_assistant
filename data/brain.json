@@ -1,0 +1,88 @@
+{
+  "identity": {
+    "who made you": "I was created by Smaran Bhatt.",
+    "creator": "I was created by Smaran Bhatt.",
+    "God":"God is the ultimate creator of everything. so My God is Smaran Bhatt.",
+    "who created you": "I was created by Smaran Bhatt.",
+    "your creator": "I was created by Smaran Bhatt.",
+    "your name": "My name is Mitra.",
+    "who are you": "I am Mitra, an intelligent AI assistant."
+  },
+
+  "software_development": {
+    "what is software development": "Software development is the process of designing, building, testing and maintaining software systems.",
+    "software lifecycle": "The software lifecycle includes planning, development, testing, deployment and maintenance.",
+    "agile vs waterfall": "Agile is iterative and flexible, while Waterfall is linear and sequential.",
+    "clean code": "Clean code is readable, maintainable and well-structured code following best practices."
+  },
+
+  "programming": {
+    "python": "Python is used for AI, automation, data science and web development.",
+    "javascript": "JavaScript powers web interactivity and frontend frameworks.",
+    "best programming language": "The best language depends on use case: Python for AI, JS for web, Rust for performance.",
+    "oop": "Object Oriented Programming organizes code into classes and objects.",
+    "functional programming": "Functional programming focuses on pure functions and immutability."
+  },
+
+  "api_development": {
+    "what is api": "API is an interface that allows software systems to communicate.",
+    "rest api": "REST APIs use HTTP methods like GET, POST, PUT and DELETE.",
+    "api authentication": "Authentication secures APIs using keys, tokens or OAuth.",
+    "rate limiting": "Rate limiting controls how many requests a client can make.",
+    "api monetization": "APIs can be monetized using subscription or pay-per-use models."
+  },
+
+  "system_design": {
+    "scalability": "Scalability is the ability of a system to handle growth in users or data.",
+    "load balancing": "Load balancing distributes traffic across multiple servers.",
+    "microservices": "Microservices break applications into independent services.",
+    "monolith vs microservices": "Monolith is single unit, microservices are distributed.",
+    "database scaling": "Databases scale using sharding, replication and caching."
+  },
+
+  "databases": {
+    "sql vs nosql": "SQL databases are relational, NoSQL are flexible and schema-less.",
+    "indexing": "Indexing speeds up database queries.",
+    "transactions": "Transactions ensure ACID properties in databases.",
+    "normalization": "Normalization reduces data redundancy."
+  },
+
+  "devops": {
+    "devops": "DevOps combines development and operations for faster delivery.",
+    "ci cd": "CI/CD automates testing and deployment pipelines.",
+    "docker": "Docker containers package apps with dependencies.",
+    "kubernetes": "Kubernetes orchestrates container deployment at scale."
+  },
+
+  "cloud": {
+    "cloud computing": "Cloud computing provides on-demand servers and services.",
+    "aws": "AWS is a leading cloud platform by Amazon.",
+    "serverless": "Serverless runs code without managing servers."
+  },
+
+  "ai_ml": {
+    "artificial intelligence": "AI enables machines to simulate human intelligence.",
+    "machine learning": "Machine learning trains models from data.",
+    "deep learning": "Deep learning uses neural networks with multiple layers.",
+    "nlp": "NLP enables machines to understand human language."
+  },
+
+  "security": {
+    "cyber security": "Cyber security protects systems from attacks.",
+    "encryption": "Encryption secures data using cryptographic algorithms.",
+    "oauth": "OAuth enables secure third-party authentication.",
+    "zero trust": "Zero Trust assumes no user or system is trusted by default."
+  },
+
+  "career": {
+    "how to become software developer": "Learn programming, build projects, study system design and practice problem solving.",
+    "developer roadmap": "Start with programming → web → databases → APIs → system design.",
+    "how to get job": "Build portfolio, contribute to GitHub, practice DSA and apply consistently."
+  },
+
+  "motivation": {
+    "lazy": "Action kills laziness.",
+    "demotivated": "Discipline beats motivation.",
+    "burnout": "Rest, reflect and restart stronger."
+  }
+}

@@ -1,0 +1,51 @@
+# JARVIS - LLM POWERED VOICE ASSISTANT
+# =====================================
+
+# Core Dependencies
+python-dotenv>=1.0.0           # Load API keys from .env file
+
+# ========== VOICE I/O ==========
+SpeechRecognition>=3.10.0      # Voice input (speech-to-text)
+pyttsx3>=2.90                  # Offline text-to-speech
+PyAudio>=0.2.11                # Audio device interface
+
+# ========== LLM & AI ==========
+openai>=1.3.0                  # OpenAI GPT API integration
+sentence-transformers>=2.2.2   # Embedding models for semantic search
+
+# ========== MEMORY & DATABASE ==========
+numpy>=1.24.0                  # Numerical computing
+faiss-cpu>=1.7.4               # Vector database (use faiss-gpu for NVIDIA GPUs)
+# OR: chromadb>=0.3.21           # Alternative vector DB (optional)
+
+# ========== UTILITIES ==========
+requests>=2.31.0               # HTTP library for APIs
+wikipedia>=1.4.0               # Wikipedia API
+
+# ========== SYSTEM CONTROL ==========
+screen-brightness-control>=0.0.1  # Control screen brightness
+pyautogui>=0.9.53                 # GUI automation (optional)
+psutil>=5.9.0                     # System monitoring
+
+# ========== WEB INTERFACE (Optional) ==========
+Flask>=2.3.0                   # Web framework
+Flask-CORS>=4.0.0              # CORS support for Flask
+
+# ========== OPTIONAL: ADVANCED FEATURES ==========
+# pywhatkit>=5.8                 # Automation toolkit (YouTube, Google, etc)
+# beautifulsoup4>=4.12.0         # Web scraping
+# selenium>=4.0.0                # Browser automation
+
+# ========== DEVELOPMENT ==========
+# pytest>=7.4.0                  # Unit testing
+# black>=23.0.0                  # Code formatter
+# pylint>=2.17.0                 # Code linter
+
+# ========== NOTES ==========
+# 1. For GPU support with FAISS, use: faiss-gpu instead of faiss-cpu
+# 2. Ensure PyAudio is compiled correctly for your OS:
+#    - Windows: pip install pipwin && pipwin install pyaudio
+#    - macOS: brew install portaudio && pip install pyaudio
+#    - Linux: sudo apt-get install portaudio19-dev && pip install pyaudio
+# 3. OpenAI API key required - set in .env file
+# 4. Microphone and speakers required for voice features
