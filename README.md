@@ -1,5 +1,5 @@
-# 🤖 JARVIS - LLM POWERED VOICE ASSISTANT
-## Production-Ready AI Assistant | Jarvis-Like System
+# 🤖 MITRA.AI - LLM POWERED VOICE ASSISTANT
+## Production-Ready AI Assistant | MITRA.AI-Like System
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## 🎯 OVERVIEW
 
-**Jarvis** is a production-ready, modular voice assistant powered by OpenAI's GPT models with semantic memory capabilities. It combines local system command execution with cloud-based LLM intelligence.
+**MITRA.AI** is a production-ready, modular voice assistant powered by OpenAI's GPT models with semantic memory capabilities. It combines local system command execution with cloud-based LLM intelligence.
 
 ### Key Features:
 - ✅ **Voice I/O**: Offline speech-to-text and text-to-speech
@@ -35,7 +35,7 @@
 ## 🏗️ ARCHITECTURE
 
 ```
-jarvis/
+MITRA.AI/
 ├── main.py                    # Entry point
 ├── config.py                  # Central configuration
 ├── requirements.txt           # Dependencies
@@ -64,7 +64,7 @@ jarvis/
 │   ├── memory.json           # User preferences & goals
 │   ├── conversations.db      # Conversation history (SQLite)
 │   ├── vector_store/         # Vector embeddings for semantic search
-│   └── jarvis.log            # System logs
+│   └── MITRA.AI.log            # System logs
 │
 ├── templates/                 # Web Interface
 │   └── index.html
@@ -178,7 +178,7 @@ python main.py
 ### 4. Voice Commands
 
 ```
-Say: "Jarvis"                    # Wake up assistant
+Say: "HEY MITRA"                    # Wake up assistant
 Say: "What time is it?"          # Get current time
 Say: "Search for Python"         # Google search
 Say: "Open Chrome"               # Launch application
@@ -250,7 +250,7 @@ python -c "from config import *; print('✓ Setup complete')"
 
 #### 1. **Personality Settings**
 ```python
-ASSISTANT_NAME = "Jarvis"
+ASSISTANT_NAME = "MITRA.AI"
 USER_NAME = "Smaran"
 
 PERSONALITY = {
@@ -280,7 +280,7 @@ OPENAI_MAX_TOKENS = 500          # Max response length
 
 #### 4. **Wake Words**
 ```python
-WAKE_WORDS = ["jarvis", "hey jarvis", "okay jarvis"]
+WAKE_WORDS = ["MITRA.AI", "hey MITRA.AI", "okay MITRA.AI"]
 SLEEP_COMMANDS = ["sleep", "quiet", "standby"]
 EXIT_COMMANDS = ["exit", "quit", "goodbye", "bye"]
 ```
@@ -301,7 +301,7 @@ cp .env.example .env
 OPENAI_API_KEY=sk-your-actual-key
 
 # Customize personality
-ASSISTANT_NAME=Jarvis
+ASSISTANT_NAME=MITRA.AI
 USER_NAME=Smaran
 VOICE_RATE=170
 VOICE_VOLUME=1.0
@@ -319,12 +319,12 @@ python main.py
 
 # Example interaction:
 # 🎤 Listening...
-# You: "Jarvis"
-# ✓ You: jarvis
-# 🔊 Jarvis: Hello Smaran. I'm ready.
+# You: "MITRA.AI"
+# ✓ You: MITRA.AI
+# 🔊 MITRA.AI: Hello Smaran. I'm ready.
 # 
 # You: "What's the weather?"
-# 🔊 Jarvis: [LLM response about weather...]
+# 🔊 MITRA.AI: [LLM response about weather...]
 ```
 
 ### Mode 2: Web Interface (Browser)
@@ -557,7 +557,7 @@ print(result["response"])
 print(result["command_type"])  # "system" or "llm" or "wake"
 ```
 
-#### `get_brain() -> JarvisBrain`
+#### `get_brain() -> MITRA.AIBrain`
 Get LLM brain instance.
 
 ```python
@@ -746,7 +746,7 @@ Built with ❤️ by a Senior Python AI Engineer
 For issues, feature requests, or contributions:
 1. Check [Troubleshooting](#troubleshooting) section
 2. Review code comments (well-documented)
-3. Check existing logs in `data/jarvis.log`
+3. Check existing logs in `data/MITRA.AI.log`
 
 ---
 
